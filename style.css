@@ -1,0 +1,31 @@
+/* Dit is de algemene stijl voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Een zachte, lichtgrijze achtergrond */
+    color: #333333; /* Donkergrijze tekst (leest fijner dan pikzwart) */
+    margin: 0;
+    padding: 40px; /* Geeft wat ademruimte aan de randen */
+    text-align: center; /* Zet alles mooi in het midden */
+}
+
+/* Stijl voor de grote koppen */
+h1 {
+    color: #2c3e50; /* Een mooie donkerblauwe kleur */
+}
+
+/* Stijl voor de linkjes */
+a {
+    display: inline-block;
+    background-color: #3498db; /* Helderblauw */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Verwijdert het standaard streepje onder de link */
+    border-radius: 5px; /* Maakt de hoekjes mooi rond */
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Wat er gebeurt als je met je muis over de link gaat */
+a:hover {
+    background-color: #2980b9; /* Een iets donkerdere kleur blauw */
+}
